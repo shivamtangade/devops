@@ -1,11 +1,11 @@
 pipeline{
- agent any{
+ agent any
  stages{
    stage("clone git"){
       steps{
-        "cloning repo"
+       echo  "cloning repo"
 }
 }
 }
 }
-}
+
